@@ -1,0 +1,9 @@
+{
+  "name": "testing-circleci",
+  "version": "1.0.0",
+  "description": "Testing out CircleCI",
+  "main": "index.js",
+  "repository": "https://github.com/WheatleyTheCoder/testing-circleci.git",
+  "author": "WheatleyTheCoder",
+  "license": "MIT"
+}
