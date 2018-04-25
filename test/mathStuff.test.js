@@ -1,4 +1,4 @@
-var { add, subtract } = require('../src/mathStuff');
+var { add, subtract, multiply } = require('../src/mathStuff');
 
 describe('add()', () => {
     test('1 + 1 = 2, duh!', () => {
@@ -17,5 +17,15 @@ describe('subtract()', () => {
 
     test('Strings should not concatenate', () => {
         expect(subtract('6', '9')).toBe(-3);
+    });
+});
+
+describe('multiply()', () => {
+    test('100 * 2 = 200, of course!', () => {
+        expect(multiply(100, 2)).toBe(200);
+    });
+
+    test('Strings should not concatenate', () => {
+        expect(multiply('6', '9')).toBe(54);
     });
 });
